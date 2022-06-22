@@ -67,7 +67,7 @@
                 this.$emit('setImgUrl', '')
             },
             handleSuccess (res, file) {
-                this.imageUrl = `http://192.168.220.110:8080/${res}`;
+                this.imageUrl = `http://legou-vm.com:8080/${res}`;
                 this.hasImage = true
             }
         },
